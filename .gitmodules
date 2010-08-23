@@ -1,0 +1,3 @@
+[submodule "lib/postmark-php"]
+	path = lib/postmark-php
+	url = git://github.com/pointybeard/postmark-php.git
