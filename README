@@ -16,6 +16,14 @@ NOTE: If you have installed via git, be sure to run "git submodule update --init
 
 2. Enable it by selecting the "Postmark App Email Library", choose Enable from the with-selected menu, then click Apply.
 
+3. Edit your Symphony config to use this extension for sending emails. It should look like the following:
+
+	###### EMAIL ######
+	'email' => array(
+		'driver' => 'postmarkapp_email_library/lib/class.email.php',
+	),
+	########
+
 [CHANGE LOG]
 
 	1.0 - Initial Release
