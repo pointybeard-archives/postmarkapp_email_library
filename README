@@ -1,0 +1,21 @@
+Postmark App Email Library
+------------------------------------
+
+Version: 1.0
+Author: Alistair Kearney (hi@alistairkearney.com)
+Build Date: 23rd Aug 2010
+Requirements: Symphony 2.2 or above
+
+Uses Symphony's core emailing API to send emails via PostMark (http://postmarkapp.com). It requires a Postmark App account and API key.
+
+[INSTALLATION]
+
+1. Upload the 'postmarkapp_email_library' folder in this archive to your Symphony 'extensions' folder.
+
+NOTE: If you have installed via git, be sure to run "git submodule update --init" from within the cloned extension folder.
+
+2. Enable it by selecting the "Postmark App Email Library", choose Enable from the with-selected menu, then click Apply.
+
+[CHANGE LOG]
+
+	1.0 - Initial Release
